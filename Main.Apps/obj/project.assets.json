@@ -1,0 +1,117 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "UCC124111245.ML.Classification/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/UCC124111245.ML.Classification.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/UCC124111245.ML.Classification.dll": {}
+        }
+      },
+      "UCC124111245.Utilities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "UCC124111245.ML.Classification": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/UCC124111245.Utilities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/UCC124111245.Utilities.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "UCC124111245.ML.Classification/1.0.0": {
+      "type": "project",
+      "path": "../UCC124111245.ML.Classification/UCC124111245.ML.Classification.csproj",
+      "msbuildProject": "../UCC124111245.ML.Classification/UCC124111245.ML.Classification.csproj"
+    },
+    "UCC124111245.Utilities/1.0.0": {
+      "type": "project",
+      "path": "../UCC124111245.Utilities/UCC124111245.Utilities.csproj",
+      "msbuildProject": "../UCC124111245.Utilities/UCC124111245.Utilities.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "UCC124111245.ML.Classification >= 1.0.0",
+      "UCC124111245.Utilities >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/Users/ianisharya/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/ianisharya/Desktop/anish-arya-repo/machine_learning/projects/MultinomialRegressionUsingC#/Main.Apps/Main.Apps.csproj",
+      "projectName": "Main.Apps",
+      "projectPath": "/Users/ianisharya/Desktop/anish-arya-repo/machine_learning/projects/MultinomialRegressionUsingC#/Main.Apps/Main.Apps.csproj",
+      "packagesPath": "/Users/ianisharya/.nuget/packages/",
+      "outputPath": "/Users/ianisharya/Desktop/anish-arya-repo/machine_learning/projects/MultinomialRegressionUsingC#/Main.Apps/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/ianisharya/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "/usr/local/share/dotnet/library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {
+            "/Users/ianisharya/Desktop/anish-arya-repo/machine_learning/projects/MultinomialRegressionUsingC#/UCC124111245.ML.Classification/UCC124111245.ML.Classification.csproj": {
+              "projectPath": "/Users/ianisharya/Desktop/anish-arya-repo/machine_learning/projects/MultinomialRegressionUsingC#/UCC124111245.ML.Classification/UCC124111245.ML.Classification.csproj"
+            },
+            "/Users/ianisharya/Desktop/anish-arya-repo/machine_learning/projects/MultinomialRegressionUsingC#/UCC124111245.Utilities/UCC124111245.Utilities.csproj": {
+              "projectPath": "/Users/ianisharya/Desktop/anish-arya-repo/machine_learning/projects/MultinomialRegressionUsingC#/UCC124111245.Utilities/UCC124111245.Utilities.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.401/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
